@@ -1,0 +1,17 @@
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\labaNumberOne.exe
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\labaNumberOne.pdb
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\labaNumberOne.exe.config
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\University\Maga number one\IIS\labaNumberOne\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
