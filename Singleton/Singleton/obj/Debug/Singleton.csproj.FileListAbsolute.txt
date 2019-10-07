@@ -1,0 +1,6 @@
+D:\University\Maga1\IIS\Singleton\Singleton\bin\Debug\Singleton.exe.config
+D:\University\Maga1\IIS\Singleton\Singleton\bin\Debug\Singleton.exe
+D:\University\Maga1\IIS\Singleton\Singleton\bin\Debug\Singleton.pdb
+D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.exe
+D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.pdb
