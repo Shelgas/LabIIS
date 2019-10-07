@@ -1,0 +1,6 @@
+D:\University\Maga1\IIS\Iterator\Iterator\bin\Debug\Iterator.exe.config
+D:\University\Maga1\IIS\Iterator\Iterator\bin\Debug\Iterator.exe
+D:\University\Maga1\IIS\Iterator\Iterator\bin\Debug\Iterator.pdb
+D:\University\Maga1\IIS\Iterator\Iterator\obj\Debug\Iterator.csprojAssemblyReference.cache
+D:\University\Maga1\IIS\Iterator\Iterator\obj\Debug\Iterator.exe
+D:\University\Maga1\IIS\Iterator\Iterator\obj\Debug\Iterator.pdb
