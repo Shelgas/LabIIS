@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
-    class Car
+    public class Car
     {
         public Driver driver { get; set; }
 
@@ -15,5 +15,10 @@ namespace Singleton
             driver = Driver.getInstance(name);
         }
 
+
+        public void OutDriver()
+        {
+            Driver.OutInstance();
+        }
     }
 }

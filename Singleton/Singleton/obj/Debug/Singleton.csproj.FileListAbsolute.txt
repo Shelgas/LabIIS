@@ -4,3 +4,10 @@ D:\University\Maga1\IIS\Singleton\Singleton\bin\Debug\Singleton.pdb
 D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
 D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.exe
 D:\University\Maga1\IIS\Singleton\Singleton\obj\Debug\Singleton.pdb
+d:\University\Maga number one\IIS\Singleton\Singleton\bin\Debug\Singleton.exe.config
+d:\University\Maga number one\IIS\Singleton\Singleton\bin\Debug\Singleton.exe
+d:\University\Maga number one\IIS\Singleton\Singleton\bin\Debug\Singleton.pdb
+d:\University\Maga number one\IIS\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+d:\University\Maga number one\IIS\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+d:\University\Maga number one\IIS\Singleton\Singleton\obj\Debug\Singleton.exe
+d:\University\Maga number one\IIS\Singleton\Singleton\obj\Debug\Singleton.pdb

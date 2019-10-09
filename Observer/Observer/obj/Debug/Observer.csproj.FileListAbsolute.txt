@@ -4,3 +4,10 @@ D:\University\Maga1\IIS\Observer\Observer\bin\Debug\Observer.pdb
 D:\University\Maga1\IIS\Observer\Observer\obj\Debug\Observer.csprojAssemblyReference.cache
 D:\University\Maga1\IIS\Observer\Observer\obj\Debug\Observer.exe
 D:\University\Maga1\IIS\Observer\Observer\obj\Debug\Observer.pdb
+D:\University\Maga number one\IIS\Observer\Observer\bin\Debug\Observer.exe.config
+D:\University\Maga number one\IIS\Observer\Observer\bin\Debug\Observer.exe
+D:\University\Maga number one\IIS\Observer\Observer\bin\Debug\Observer.pdb
+D:\University\Maga number one\IIS\Observer\Observer\obj\Debug\Observer.csprojAssemblyReference.cache
+D:\University\Maga number one\IIS\Observer\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+D:\University\Maga number one\IIS\Observer\Observer\obj\Debug\Observer.exe
+D:\University\Maga number one\IIS\Observer\Observer\obj\Debug\Observer.pdb

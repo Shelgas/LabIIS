@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Singleton
 {
-    class Driver
+    public class Driver
     {
         private static object locker = new object();
         private static Driver instance;
@@ -29,6 +29,11 @@ namespace Singleton
                 }
             }
             return instance;
+        }
+
+        public static void OutInstance()
+        {
+            instance = null;
         }
 
     }

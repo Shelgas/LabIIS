@@ -1,0 +1,7 @@
+D:\University\Maga number one\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.exe.config
+D:\University\Maga number one\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.exe
+D:\University\Maga number one\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.pdb
+D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.csprojAssemblyReference.cache
+D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.csproj.CoreCompileInputs.cache
+D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.exe
+D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.pdb

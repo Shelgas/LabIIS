@@ -12,10 +12,15 @@ namespace Singleton
         {
             Car a = new Car();
             a.setDriver("Ner'zhul");
-            Car b = new Car();
-            b.setDriver("Lesko");
             Console.WriteLine(a.driver.Name);
-            Console.WriteLine(b.driver.Name);
+
+            a.setDriver("Lesko");
+            Console.WriteLine(a.driver.Name);
+
+            a.OutDriver();
+            a.setDriver("Lesko");
+            Console.WriteLine(a.driver.Name);
+
             Console.ReadLine();
         }
     }
