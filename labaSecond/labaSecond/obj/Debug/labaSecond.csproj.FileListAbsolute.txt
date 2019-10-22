@@ -5,3 +5,9 @@ D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.csp
 D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.csproj.CoreCompileInputs.cache
 D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.exe
 D:\University\Maga number one\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.pdb
+d:\University\Maga1\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.exe.config
+d:\University\Maga1\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.exe
+d:\University\Maga1\IIS\labaSecond\labaSecond\bin\Debug\labaSecond.pdb
+d:\University\Maga1\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.csprojAssemblyReference.cache
+d:\University\Maga1\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.exe
+d:\University\Maga1\IIS\labaSecond\labaSecond\obj\Debug\labaSecond.pdb

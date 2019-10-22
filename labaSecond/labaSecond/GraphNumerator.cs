@@ -18,12 +18,7 @@ namespace labaSecond
         {
             vertex = 1; 
             Graph = graph;
-           
-            
-            //visited.Add(vertex);
-            
-           
-            
+
             q.Enqueue(vertex);
         }
 
