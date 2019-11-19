@@ -1,0 +1,6 @@
+D:\University\Maga1\IIS\labathird\labathird\bin\Debug\labathird.exe.config
+D:\University\Maga1\IIS\labathird\labathird\bin\Debug\labathird.exe
+D:\University\Maga1\IIS\labathird\labathird\bin\Debug\labathird.pdb
+D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.csprojAssemblyReference.cache
+D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.exe
+D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.pdb

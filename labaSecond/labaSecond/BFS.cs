@@ -14,7 +14,7 @@ namespace labaSecond
 
         public BFS()
         {
-
+            Math.Abs()
 
             graph.AddEdge(1, 3);
             graph.AddEdge(1, 2);
