@@ -10,7 +10,7 @@ namespace labathird
     {
         public override ITalents ChoiceTalents()
         {
-            throw new NotImplementedException();
+            return new FrostMage();
         }
 
         public override void SetAgility()
@@ -45,7 +45,10 @@ namespace labathird
 
         public override void SetTalents()
         {
-            throw new NotImplementedException();
+            var spec = ChoiceTalents();
+            Hero.FirstAbility = spec.SetFirstAbility();
+            Hero.SecondAbility = spec.SetSecondAbility();
+            Hero.ThirdAbility = spec.SetThirdAbility();
         }
     }
 }

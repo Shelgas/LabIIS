@@ -28,8 +28,7 @@ namespace labathird
         {
            return $"Имя: {Name}  Здоровье: {Health}  Мана: {Mana} " +
                 $"Выносливость: {Stamina} Сила: {Strength}" +
-                $" Интелект: {Intelligence} Ловкость: {Agility}" +
-                $"{FirstAbility} {SecondAbility} {ThirdAbility}";
+                $" Интелект: {Intelligence} Ловкость: {Agility}";
         }
 
         
