@@ -16,8 +16,8 @@ namespace labathird
             Console.WriteLine(warrior.GetCharacteristics());
 
 
-            //Hero mage = cm.СreateHero(new MageBilder(), "Jaina");
-            //Console.WriteLine(mage.GetCharacteristics());
+            Hero mage = cm.СreateHero(new MageBilder(), "Jaina");
+            Console.WriteLine(mage.GetCharacteristics());
 
             //Hero rogue = cm.СreateHero(new RogueBilder(), "*****");
             //Console.WriteLine(rogue.GetCharacteristics());

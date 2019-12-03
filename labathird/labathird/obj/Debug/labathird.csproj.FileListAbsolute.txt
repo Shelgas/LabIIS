@@ -4,3 +4,10 @@ D:\University\Maga1\IIS\labathird\labathird\bin\Debug\labathird.pdb
 D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.csprojAssemblyReference.cache
 D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.exe
 D:\University\Maga1\IIS\labathird\labathird\obj\Debug\labathird.pdb
+d:\University\Maga number one\IIS\labathird\labathird\bin\Debug\labathird.exe.config
+d:\University\Maga number one\IIS\labathird\labathird\bin\Debug\labathird.exe
+d:\University\Maga number one\IIS\labathird\labathird\bin\Debug\labathird.pdb
+d:\University\Maga number one\IIS\labathird\labathird\obj\Debug\labathird.csprojAssemblyReference.cache
+d:\University\Maga number one\IIS\labathird\labathird\obj\Debug\labathird.csproj.CoreCompileInputs.cache
+d:\University\Maga number one\IIS\labathird\labathird\obj\Debug\labathird.exe
+d:\University\Maga number one\IIS\labathird\labathird\obj\Debug\labathird.pdb

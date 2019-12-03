@@ -11,16 +11,15 @@ namespace DepthFirstSearch
         Dictionary<int, HashSet<int>> Graph { get; set; }
         private List<IObserver> observers = new List<IObserver>();
 
-
+        int count = -1;
         private int vertex;
         private HashSet<int> visited = new HashSet<int>();
-        private Stack<int> stack = new Stack<int>();
+      
 
         public GraphNumerator(Dictionary<int, HashSet<int>> graph)
         {
             vertex = 1;
             Graph = graph;
-            stack.Push(vertex);
         }
 
 
@@ -31,17 +30,23 @@ namespace DepthFirstSearch
 
         private void Traverse(int v, HashSet<int> visited)
         {
-           
+
+            if (v == 6)
+                Console.WriteLine(count);
+            count++;
             visited.Add(v);
+            
+            
             Notify(v);
             if (Graph.ContainsKey(v))
             {
-           
                 foreach (int neighbour in Graph[v].Where(a => !visited.Contains(a)))
                 {
                     Traverse(neighbour, visited);
+                    count--;
                 }
             }
+          
         }
 
         public void Attach(IObserver observer)

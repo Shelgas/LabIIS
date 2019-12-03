@@ -4,3 +4,10 @@ D:\University\Maga1\IIS\DepthFirstSearch\DepthFirstSearch\bin\Debug\DepthFirstSe
 D:\University\Maga1\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.csprojAssemblyReference.cache
 D:\University\Maga1\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.exe
 D:\University\Maga1\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.pdb
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\bin\Debug\DepthFirstSearch.exe.config
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\bin\Debug\DepthFirstSearch.exe
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\bin\Debug\DepthFirstSearch.pdb
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.csprojAssemblyReference.cache
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.csproj.CoreCompileInputs.cache
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.exe
+d:\University\Maga number one\IIS\DepthFirstSearch\DepthFirstSearch\obj\Debug\DepthFirstSearch.pdb

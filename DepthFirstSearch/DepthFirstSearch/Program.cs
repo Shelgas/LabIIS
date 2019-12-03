@@ -30,8 +30,8 @@ namespace DepthFirstSearch
 
             foreach (var item in new List<string> { "A", "B", "C", "D" })
             {
-                Observer plyer = new Observer(item);
-                iterator.Attach(plyer);
+                Observer player = new Observer(item);
+                iterator.Attach(player);
             }
 
             iterator.Next();
