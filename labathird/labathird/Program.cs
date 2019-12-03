@@ -10,18 +10,30 @@ namespace labathird
     {
         static void Main(string[] args)
         {
-            СharactereMenu cm = new СharactereMenu();
-
-            Hero warrior = cm.СreateHero(new WarriorBilder(), "Garrosh");
-            Console.WriteLine(warrior.GetCharacteristics());
 
 
-            //Hero mage = cm.СreateHero(new MageBilder(), "Jaina");
-            //Console.WriteLine(mage.GetCharacteristics());
-
-            //Hero rogue = cm.СreateHero(new RogueBilder(), "*****");
-            //Console.WriteLine(rogue.GetCharacteristics());
-          
+            Hero charactere = СharactereMenu.СreateHero();
+            Console.WriteLine(charactere.GetCharacteristics());
+            charactere.ShowImage();
+           
+            while (true)
+            {
+                Console.WriteLine("Enter 1 to go right");
+                Console.WriteLine("Enter 2 to gp left");
+                string selection = Console.ReadLine();
+                switch (selection)
+                {
+                    case "1":
+                        new Battle(charactere, new Lich(charactere));
+                        break;
+                    case "2":
+                        new Battle(charactere, new Skeleton());
+                        break;
+                    default:
+                        Console.WriteLine("Error, try again");
+                        break;
+                }
+            }
 
             Console.Read();
         }
