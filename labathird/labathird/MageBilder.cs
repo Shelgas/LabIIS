@@ -10,7 +10,7 @@ namespace labathird
     {
         public override ITalents ChoiceTalents()
         {
-            throw new NotImplementedException();
+            return new FrostMage();
         }
 
         public override void SetAgility()
@@ -21,6 +21,35 @@ namespace labathird
         public override void SetHealth()
         {
             Hero.Health = 150;
+        }
+
+        public override void SetImage()
+        {
+            Hero.Image = new[]
+            {
+                @"                    ____ ",
+                @"                  .'* *.'",
+                @"               __/_*_*(",
+                @"              / _______ \",
+                @"             _\_)/___\(_/_ ",
+                @"            / _((\- -/))_ \",
+                @"            \ \())(-)(()/ /",
+                @"             ' \(((()))/ '",
+                @"            / ' \)).))/ ' \",
+                @"           / _ \ - | - /_  \",
+                @"          (   ( .;''';. .'  )",
+                @"          _\'__ /    )\ __'/_",
+                @"            \/  \   ' /  \/",
+                @"             .'  '...' ' )",
+                @"              / /  |  \ \",
+                @"             / .   .   . \",
+                @"            /   .     .   \",
+                @"           /   /   |   \   \",
+                @"         .'   /    b    '.  '.",
+                @"     _.-'    /     Bb     '-. '-._",
+                @" _.-'       |      BBb       '-.  '-. ",
+                @"(________mrf\____.dBBBb.________)____)"
+            }; 
         }
 
         public override void SetIntelligence()
@@ -45,7 +74,10 @@ namespace labathird
 
         public override void SetTalents()
         {
-            throw new NotImplementedException();
+            var spec = ChoiceTalents();
+            Hero.FirstAbility = spec.SetFirstAbility();
+            Hero.SecondAbility = spec.SetSecondAbility();
+            Hero.ThirdAbility = spec.SetThirdAbility();
         }
     }
 }

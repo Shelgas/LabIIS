@@ -23,6 +23,8 @@ namespace labathird
         public abstract void SetIntelligence();
         public abstract void SetAgility();
 
+        public abstract void SetImage();
+
         public abstract void SetTalents();
     }
 }

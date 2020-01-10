@@ -1,0 +1,52 @@
+﻿@model WebPodcast.ViewModel.PodcastList
+
+
+<div style="display: flex;">
+    <div style="flex: 1;">
+        <div style="flex: 1; margin-top: 20px">
+            <img src="@Model.Image" weight="200px" height="400px" class="img-thumbnail">
+            <hr />
+            <div style="font-size: 14px;">
+                <p style="font-size: 14px;">@Model.Description</p>
+            </div>
+            <div style="margin-top: 14px;">
+                <a asp-action="AuthorEdit" asp-route-id="@Model.AuthorId">Редактировать</a> |
+                <a asp-action="AuthorDelete" asp-route-id="@Model.AuthorId">Удалить</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="flex: 2; margin-top: 20px; margin-left: 20px;">
+        <div class="table-title">
+            <div class="row">
+                <div class="col-sm-8"><h1>@Model.Name</h1></div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-info add-new" 
+                            onclick="location.href='@Url.Action("AddPodcast", "Home",  new { id=Model.AuthorId, authorName = Model.Name})'">
+                        <i class="fa fa-plus"></i> Добавить подкаст
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <hr />
+        @foreach (var podcasts in Model.Podcasts)
+        {
+            <p style="font-size: 22px;" class="font-weight-bold">@podcasts.Name</p>
+            <p style="font-size: 14px;" class="font-weight-light">@podcasts.Description</p>
+            <audio controls style="width: 100%;" preload="none">
+                <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+                <source src=@podcasts.Audio type="audio/mpeg">
+                <a href=@podcasts.Audio>Скачайте музыку</a>.
+            </audio>
+            <a asp-controller="Home" asp-action="PodcastEdit" asp-route-id="@podcasts.Id" asp-route-authorId=@Model.Name>Редактировать</a>
+            <hr />
+        }
+    </div>
+</div>
+
+
+

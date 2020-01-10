@@ -10,7 +10,7 @@ namespace labathird
     {
         public override ITalents ChoiceTalents()
         {
-            throw new NotImplementedException();
+            return new AssassRog();
         }
 
         public override void SetAgility()
@@ -21,6 +21,49 @@ namespace labathird
         public override void SetHealth()
         {
             Hero.Health = 350;
+        }
+
+        public override void SetImage()
+        {
+            Hero.Image = new[]
+            {
+                @"                                                      ____
+                                                     /    `.
+                                                    /-----.|          ____
+                                                ___/___.---`--.__.---'    `--.
+                                  _______.-----'           __.--'             )
+                              ,--'---.______________..----'(  __         __.-'
+                                        `---.___,-.|(a (a) /-'  )___.---'
+                                                `-.>------<__.-'
+            ______                       _____..--'      //
+    __.----'      `---._                `._.--._______.-'/))
+,--'---.__              -_                  _.-(`-.____.'// \
+          `-._            `---.________.---'    >\      /<   \
+              \_             `--.___            \ \-__-/ /    \
+                \_                  `----._______\ \  / /__    \
+                  \                      /  |,-------'-'\  `-.__\
+                   \                    (   ||            \      )
+                    `\                   \  ||            /\    /
+                      \                   >-||  @)    @) /\    /
+                      \                  ((_||           \ \_.'|
+                       \                    ||            `-'  |
+                       \                    ||             /   |
+                        \                   ||            (   '|
+                        \                   ||  @)     @)  \   |
+                         \                  ||              \  )
+                          `\_               `|__         ____\ |
+                             \_               | ``----'''     \|
+                               \_              \    .--___    |)
+                                 `-.__          \   |     \   |
+                                      `----.___  \^/|      \/\|
+                                               `--\ \-._  / | |  
+                                                   \ \  `'  \ \
+                                            __...--'  )     (  `-._
+                                           (_        /       `.    `-.__
+                                             `--.__.'          `.       )
+                                                                 `.__.-'
+"
+            }; 
         }
 
         public override void SetIntelligence()
@@ -45,7 +88,10 @@ namespace labathird
 
         public override void SetTalents()
         {
-            throw new NotImplementedException();
+            var spec = ChoiceTalents();
+            Hero.FirstAbility = spec.SetFirstAbility();
+            Hero.SecondAbility = spec.SetSecondAbility();
+            Hero.ThirdAbility = spec.SetThirdAbility();
         }
     }
 }

@@ -10,6 +10,8 @@ namespace labathird
     {
         public string Name { get; private set; }
 
+        public string[] Image { private get; set; }
+
         public int Health { get; set; }
         public int Mana { get; set; }
         public int Stamina { get; set; }
@@ -26,13 +28,27 @@ namespace labathird
 
         public string GetCharacteristics()
         {
-           return $"Имя: {Name}  Здоровье: {Health}  Мана: {Mana} " +
-                $"Выносливость: {Stamina} Сила: {Strength}" +
-                $" Интелект: {Intelligence} Ловкость: {Agility}" +
-                $"{FirstAbility} {SecondAbility} {ThirdAbility}";
+           return $"Name: {Name}  Health: {Health}  Mana: {Mana} " +
+                $"Stamina: {Stamina} Strength: {Strength}" +
+                $" Intelligence: {Intelligence} Agility: {Agility}";
         }
 
         
+
+        public void ShowImage()
+        {
+            foreach (var line in Image)
+            {
+                Console.WriteLine(line);
+            }
+
+        }
+
+        public int Attack()
+        {
+            return Strength;
+        }
+
 
         public Hero(string name)
         {
